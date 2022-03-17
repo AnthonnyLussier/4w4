@@ -1,18 +1,18 @@
 /* ---------------- BACKGROUND */
-$color__background-body : hsl(224, 44%, 90%);
-$color__background-body-clip : hsl(204, 78%, 65%);
-$color__background-main : hsl(204, 49%, 89%);
-$color__background-cours : hsl(209, 100%, 91%);
-$color__background-header : hsl(207, 66%, 66%);
-$color__background-barre : hsl(200, 78%, 9%);
-$color__background-footer : hsl(225, 78%, 13%);
-$color__background-link : hsl(227, 22%, 84%);
+$color__background-body : #0D0D0D;
+$color__background-body-clip : #0CF2B1;
+$color__background-main : #AB05F2;
+$color__background-cours : #0CF2B1;
+$color__background-header : #0D0D0D;
+$color__background-barre : #8303A6;
+$color__background-footer : #0D0D0D;
+$color__background-link : red;
 $color__background-link-hover : hsl(236, 64%, 44%);
 
 /* ---------------- LIENS */
-$color__link : hsl(18, 27%, 38%);
-$color__link-hover : hsl(0, 0%, 100%);
-$color__link-visited : hsl(19, 29%, 28%);
+$color__link : #8C5845;
+$color__link-hover : #593F59;
+$color__link-visited : #3A2C59;
 /* ---------------- LIENS FOOTER */
 $color__link__footer : hsl(0, 91%, 50%);
 $color__link__footer-hover : hsl(123, 80%, 49%);

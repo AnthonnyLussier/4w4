@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-theme name: groupe__3 anthonnytp1
+theme name: groupe__3 anthonnytp1222
 Author: Eddy martin
 Author URI: https://github.com/eddytuto
 Description: Ce thème servira de base de développement pour l'ensemble du cours 4W4. Chacune des étapes de développement se retrouvera sur gitHub à l'adresse: https://github.com/eddytuto/2022-4w4
@@ -351,15 +351,15 @@ html {
 /* ---------------------------------- */
 /* -----------------------------------*/
 a {
-  color: #7b5647;
+  color: #8C5845;
 }
 
 a:visited {
-  color: #5c4033;
+  color: #3A2C59;
 }
 
 a:hover, a:focus, a:active {
-  color: white;
+  color: #593F59;
 }
 
 a:focus {
@@ -461,7 +461,7 @@ COMPOSANTES
 --------------------------------------------------------- */
 .site__main {
   padding: 10px 15px;
-  background-color: #d5e6f1;
+  background-color: #AB05F2;
   border-radius: 5px;
   box-shadow: #39443e 1px -1px 10px;
 }
@@ -484,7 +484,7 @@ COMPOSANTES
 }
 
 .formation__cours {
-  background-color: #d1e9ff;
+  background-color: #0CF2B1;
   box-shadow: #394044 1px -1px 10px;
   border-radius: 5px;
   margin: 10px;
@@ -526,7 +526,7 @@ COMPOSANTES
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #6faee2;
+  background-color: #0D0D0D;
   color: #d6d8e4;
   padding-left: 10px;
 }
@@ -637,7 +637,7 @@ COMPOSANTES
 
 .site__footer {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  background-color: #07143b;
+  background-color: #0D0D0D;
   color: #e2e7f8;
   padding: 15px;
 }
@@ -760,7 +760,7 @@ LAYOUT
 theme name: Lab 2 Lemieux Florence
 */
 .site {
-  background-color: rgba(218, 224, 241, 0.5);
+  background-color: rgba(13, 13, 13, 0.5);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -773,29 +773,29 @@ theme name: Lab 2 Lemieux Florence
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #60b4eb;
+  background-color: #0CF2B1;
   z-index: -1;
-  clip-path: polygon(87% 0, 100% 0, 100% 100%, 58% 100%);
+  clip-path: circle(11.2% at 70% 50%);
 }
 
 .site__header {
   grid-area: header;
-  background-color: rgba(111, 174, 226, 0.5);
+  background-color: rgba(13, 13, 13, 0.5);
 }
 
 .site__barre {
   grid-area: sidebar;
-  background-color: #051d29;
+  background-color: #8303A6;
 }
 
 .site__main {
   grid-area: main;
-  background-color: rgba(213, 230, 241, 0.5);
+  background-color: rgba(171, 5, 242, 0.5);
 }
 
 .site__footer {
   grid-area: footer;
-  background-color: #07143b;
+  background-color: #0D0D0D;
 }
 
 /* configuration mobile */
