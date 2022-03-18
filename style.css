@@ -475,7 +475,7 @@ COMPOSANTES
   font-size: 2rem;
   color: #dbdff3;
   margin: 10px 0px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
 .formation__liste {
@@ -549,12 +549,12 @@ COMPOSANTES
 
 .site__header .header__titre {
   font-size: clamp(3rem, 4vw, 8rem);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
 .site__header .header__description {
   font-size: clamp(2rem, 2vw, 3rem);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
 }
 
 .util {
@@ -636,7 +636,7 @@ COMPOSANTES
 }
 
 .site__footer {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Orbitron", sans-serif;
   background-color: #54536f;
   color: #e2e7f8;
   padding: 15px;
@@ -761,7 +761,7 @@ theme name: Lab 2 Lemieux Florence
 */
 .site {
   background-color: rgba(55, 51, 165, 0.5);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
 }
 
 .home::after {

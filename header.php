@@ -9,6 +9,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,400;1,100&family=Cormorant+Garamond:ital@1&family=Orbitron:wght@500&family=Tangerine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    
     
     <?php wp_head() ?>
     <?php show_admin_bar(true); ?>
