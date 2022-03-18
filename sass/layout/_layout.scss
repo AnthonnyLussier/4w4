@@ -20,65 +20,33 @@ theme name: Lab 2 Lemieux Florence
     background-color: $color__background-body-clip;
    
     z-index: -1;
-    clip-path: circle(11.2% at 70% 50%) ;
+    clip-path: polygon(
+    /* bow tie, starting at top right */
+    0 0, 100% 0, 100% 100%, 0% 100%,
+    /* move to next shape */
     
-}
-.cercle1::after {
-    content : "";
-    position : absolute;
-    width : 100%;
-    height : 100%;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background-color: $color__background-body-clip;
-   
-    z-index: -1;
-    clip-path: circle(16.6% at 49% 3%);
-}
-.cercle2{
-    content : "";
-    position : absolute;
-    width : 100%;
-    height : 100%;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background-color: $color__background-body-clip;
-   
-    z-index: -1;
-    clip-path: circle(10.4% at 98% 4%);
-}
-.cercle3{
-    content : "";
-    position : absolute;
-    width : 100%;
-    height : 100%;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background-color: $color__background-body-clip;
-   
-    z-index: -1;
-    clip-path: circle(23.6% at 17% 72%);
-}
-.cercle4{
-    content : "";
-    position : absolute;
-    width : 100%;
-    height : 100%;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background-color: $color__background-body-clip;
-   
-    z-index: -1;
-    clip-path: circle(18.5% at 91% 100%);
-}
+    
+    
+    /* left rectangle */
+    0% 0%,
+    0% 80%,
+    0% 100%,
+    50% 60%,
+    
+    /* move to next shape */
+    -5% 20%,
+    -5% -5%,
+    
+    /* right diamond */
+    40% 0%,
+    80% 100%,
+    100% 100%,
+    100% 20%,
+    90% 0%,
+    );
+    
+ };
+
 
 
 
