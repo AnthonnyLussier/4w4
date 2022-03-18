@@ -18,7 +18,10 @@
     <section class="site__header__titre">
         <?php the_custom_logo();  ?>
         <h1 class="header__titre">
-        
+        <a href="" class="cercle1"></a>
+        <a href="" class="cercle2"></a>
+        <a href="" class="cercle3"></a>
+        <a href="" class="cercle4"></a>
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">    
                 <?php bloginfo('name'); ?></h1>
             </a>
