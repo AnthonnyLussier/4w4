@@ -531,6 +531,10 @@ COMPOSANTES
   padding-left: 10px;
 }
 
+.site__header svg {
+  color: #04C4D9;
+}
+
 @media screen and (min-width: 800px) {
   .site__header {
     flex-direction: row;

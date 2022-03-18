@@ -5,6 +5,9 @@
     background-color: $color__background-header;
     color: $color__font-header;
     padding-left: 10px;
+    svg{
+      color: $color__icone-header;
+    }
     @media screen and (min-width : $largeur__media--tablette){
       flex-direction: row;
     }
@@ -41,6 +44,7 @@
     }
     &__lien{
       display: flex;
-    }
 
+    }
+   
   }
