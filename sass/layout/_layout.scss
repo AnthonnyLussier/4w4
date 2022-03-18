@@ -23,6 +23,20 @@ theme name: Lab 2 Lemieux Florence
     clip-path: circle(11.2% at 70% 50%) ;
     
 }
+.cercle{
+    content : "";
+    position : absolute;
+    width : 100%;
+    height : 100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: $color__background-body-clip;
+   
+    z-index: -1;
+    clip-path: circle(22.5% at 26% 25%);
+}
 
 
 
