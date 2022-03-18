@@ -86,10 +86,10 @@ theme name: Lab 2 Lemieux Florence
 @media screen and (min-width : $largeur__media--tablette)
 {
     .site {
-        grid-template-columns: ($size__site-barre) auto;
+        
         grid-template-areas:
             "header header"
-            "sidebar main"
+            "main sidebar "
             "footer footer";
     }
 

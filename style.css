@@ -812,8 +812,7 @@ theme name: Lab 2 Lemieux Florence
 
 @media screen and (min-width: 800px) {
   .site {
-    grid-template-columns: 300px auto;
-    grid-template-areas: "header header" "sidebar main" "footer footer";
+    grid-template-areas: "header header" "main sidebar " "footer footer";
   }
   .home {
     display: grid;
