@@ -19,9 +19,20 @@
     &__liste {
         display: flex;
         flex-wrap: wrap;
+        & :hover
+        {
+         box-shadow: $color__contour-cours 1px -1px 20px;
+        }
+   
+       
     }
     
     &__cours {
+        & :hover
+        {
+         box-shadow: none;
+        }
+   
         background-color: $color__background-cours;
         box-shadow: rgb(57, 64, 68) 1px -1px 10px;
         border-radius: 5px;
@@ -29,6 +40,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+       
         @media screen and (min-width : $largeur__media--tablette){
             width: 45%;
         }

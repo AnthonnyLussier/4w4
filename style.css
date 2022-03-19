@@ -483,6 +483,10 @@ COMPOSANTES
   flex-wrap: wrap;
 }
 
+.formation__liste :hover {
+  box-shadow: #04C4D9 1px -1px 20px;
+}
+
 .formation__cours {
   background-color: #F2C641;
   box-shadow: #394044 1px -1px 10px;
@@ -492,6 +496,10 @@ COMPOSANTES
   flex-direction: column;
   width: 100%;
   padding: 10px;
+}
+
+.formation__cours :hover {
+  box-shadow: none;
 }
 
 @media screen and (min-width: 800px) {
