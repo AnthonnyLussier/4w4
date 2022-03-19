@@ -591,6 +591,7 @@ COMPOSANTES
 
 #burger {
   position: absolute;
+  left: 96%;
   transition: transform .3s;
   transform: rotate(0);
 }
