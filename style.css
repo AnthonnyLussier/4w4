@@ -745,15 +745,15 @@ ANIMATION
   background-color: #F2C641;
   color: #fff;
   font-size: 3rem;
-  animation: anim-entete 1s forwards;
+  animation: anim-entete 5s forwards;
 }
 
 @keyframes anim-entete {
   0% {
-    transform: translateY(-100vh);
+    transform: translateX(-220vh) rotate(360deg);
   }
   100% {
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 
