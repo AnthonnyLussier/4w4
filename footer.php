@@ -9,6 +9,7 @@
         <section class="footer__adresse">
         <?php get_sidebar("footer_colonne_3");  ?>
         </section>
+       
     </div>
     <div class="site__footer__ligne">
         <section class="footer__description">
@@ -21,7 +22,7 @@
          <?php get_sidebar("footer_ligne_1");  ?>
         </section>
         <section class="footer__auteur">
-            <p>Auteur : Eddy Martin</p>
+            <p>Auteur : Anthonny Lussier</p>
         </section>
         <section class="footer__menu">
         <?php    
